@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index html</title>
+
+    <meta name="description" content="ma premiére page html"><!--ici on décrit le contenu de la page il sera visible dans le navigateur lors des recherche de l'utilisateur-->
+
+    <meta name="author" content="sonia bougamha"> <!--balise pour specifier qui est l'auteur du contenu de la page-->
+
+    <link rel="stylesheet" href="css/01_index.css"><!--ici on crée unchemin relatif vers le fichier de style-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet"><!--import de la police par google font-->
+</head>
+
+<body>
+    test <!--il n'est pas necessaire d'utiliser la balise <p> pour afficher du texte-->
+     <h1>titre de niveau 1</h1><!--on ne met qu'un h1 par page le titre le plus important--> 
+     <h2>titre de niveau 2</h2> <!--shift alt bas dupliquer une ligne--> 
+     <h3>titre de niveau 3</h3> <!--shift alt bas dupliquer une ligne--> 
+     <h4>titre de niveau 4</h4> <!--shift alt bas dupliquer une ligne--> 
+     <h5>titre de niveau 5</h5> <!--shift alt bas dupliquer une ligne--> 
+     <h6>titre de niveau 6</h6> <!--on fera attention a la hierarchisation des titres--> 
+
+     <p>c'est un paragraphe</p>
+     <p>les paragraphe sont delimités par la balise &lt;</p><!--&lt; => permet de ne pas interpréter notre balise-->
+     <pre>
+         les numeriques de poissy 2020          blablaa
+         bla laal bal
+        </pre>
+     <p>
+         les numeriques de poissy 2020          blablaa
+         bmla abl
+        </p>
+
+        <p><!--attention on n'abuse pas des balise br on utilise le css pour la mise en forme-->
+            pour faire un retour a la ligne j'utilise la &lt;br>
+            <br>
+            on peut ausssi l'ecrire &lt;br />
+            <br>
+            ou &lt;/>
+        </p>
+
+        <p style="text-align:right">
+        ce paragraphe sur deux ligne
+        <br>
+        est disposé a droite
+        </p>
+
+        <p style=" text-align:center">
+            ce paragraphe sur deux lignes
+            <br>
+            est dis posé au centre  
+        </p>
+
+        <p style=" text-align:left">
+            ce paragraphe sur deux ligne
+            <br>
+            est disposé a gauche
+
+        </p>
+        <p style="text-align:justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quis repellat neque ratione magni libero temporibus autem laudantium deleniti, voluptatibus consequuntur expedita voluptates rerum reiciendis ea nesciunt, rem ad tempora. Recusandae facere laboriosam repellendus ullam. Ipsum, laborum nisi voluptates eveniet quae labore rem ullam esse autem sapiente nemo possimus! Totam.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi aperiam non similique totam obcaecati placeat vero debitis eligendi, modi doloremque incidunt, eum ut? Nemo itaque repellat facilis in ex laudantium distinctio, provident, dicta, tempore rerum odio error ullam. Porro omnis sapiente reprehenderit repellendus rerum. Aliquid ratione distinctio temporibus quas inventore.
+        </p>
+        <!--horizontale rule ==> barre horizontal-->
+        <hr>
+        <!--mise en valeur du text-->
+        <p>
+            Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> adipisicing elit. Illo magni repellat modi doloremque quas natus fugit ullam, hic laboriosam non.
+            <!--texte gras-->
+        </p>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero <em>deserunt</em> deserunt amet odit maiores officia atque eveniet autem assumenda explicabo? Sit officia eos sequi illo ex? Exercitationem voluptatibus deserunt odio obcaecati!<!--italique-->
+        </p>
+
+        <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, <mark>nostrum</mark> nostrum veniam! Voluptas vel omnis libero adipisci cumque. Deserunt officia itaque qui eum provident expedita neque voluptate eveniet dicta possimus velit, aliquid repudiandae unde ipsam dolorem eaque suscipit, numquam debitis illum.
+            <!--surligne-->
+        </p>
+
+        <!--les listes-->
+        <ul>
+            <li>chat</li>
+            <li>chien</li>
+            <li>t-rex</li>
+        </ul>
+
+        <ol>
+            <li>glace</li>
+            <li>flan</li>
+            <li>tiramisu</li>
+        </ol>
+
+        <!--les couleurs-->
+        <p style="color: crimson;">h</p>
+        <p style="color: lightseagreen;">t</p>
+        <p style="color: darkgreen;">m</p>
+        <p style="color: navy;">l</p>
+        <br>
+        <p style="color: #dc143c;">h</p>
+        <p style="color: #20b2aa;">t</p>
+        <p style="color: #006400;">m</p>
+        <p style="color: #000080;">l</p>
+
+        <!--la couleur de fond-->
+        <p style="background-color: cyan;">bonjour </p>
+        <p style="background-color: pink;">hello</p>
+        <p style="background-color: black;">bonjourno</p>
+
+        <!--les liens-->
+        <!--on a pu voir qu'on pouvait faire des liens vers des ficiers comme le ficier 01_index .css-->
+        <link rel="stylesheet" href="css:01_index.css"> <!--je tape li et vs code me propose link css-->
+        <!--pour faire un lien vers une page internet via son url je fais comme suit-->
+        <a href="http://colorhunt.co/"> site de color hunt</a>
+
+        <!--les images-->
+        <img src="37220020-329466671).jpg" alt="logos html css">
+</body>
+</html>

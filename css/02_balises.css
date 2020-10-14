@@ -1,0 +1,44 @@
+*{/*l'etoile selectionne tout le document*/
+    text-align: right;
+}
+body{
+    background-color: aqua;
+
+}
+header{
+    background-color: rgba(211, 20, 20, 0.788);
+    color: coral;/*couleur du texte*/
+    height: 100px; /*hauteur a 100 pixels*/
+
+}
+nav{
+    background-color: coral;
+    height: 60px;
+}
+section{
+    background-color: darkblue;
+    height: 600px;
+}
+article{
+    background-color: darkgoldenrod;
+    height: 67px;
+}
+footer{
+    background-color: deeppink;
+    height: 75px;
+}
+nav,footer{/*je separe les different balise a selectionner par des virgules*/
+    color: forestgreen;
+
+}
+/*pour selectionner une class j'utilise un point avant le nom que je lui est donné*/
+.jaune{
+    background-color: gold;
+}
+/*pour cibler l'id j'utilise un diese*/
+#noir{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    font-size: 25pxS;
+}
