@@ -1,0 +1,41 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    width: 50%;
+    margin: auto;
+}
+table{
+    border: 4px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 25px;/*marge extérieur de la balise*/
+
+}
+
+thead, tfoot{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+
+}
+tbody{
+    border: 1px solid violet;
+}
+th{
+    border: 1px dotted black; /*dotted pointillé*/
+    padding: 4px;/*marge intérieur c'est ce qui permet d'eloingner du texte de la bordure de la balise*/
+    background-color: blanchedalmond;
+    width: 25%;
+}
+
+td{
+    font-size: 100%;
+    border: 1px dotted violet;
+    text-align: center;
+    padding: 5px;
+}
+td :first-child{
+    text-align: left;
+    background-color: violet;
+}

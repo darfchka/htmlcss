@@ -1,0 +1,20 @@
+/*les devellopeur ont l'habitude d'utiliser un rest qui va uniformiser la mise en page, on en trouve quelques exemples sur internet*/
+/*prenez l'habitude de tester votre fichier style en mettant un background color sur votre balise body*/
+selecteur{
+    propriété: valeur ;/*le point virgule est indispensable pour ne pas avoir d'erreur prenez l'habitude de le mettre tout le temps*/
+}
+.class{/*on peut mettre plusieurs class pour une balise dans le html et on peut utiliser une class pour plusieurs balise*/
+    propriété: valeur;
+}
+
+#id{/*on n'utilise les id de maniere unique ,on ne donne pas le meme nom d'id a plusieurs balises,les id sont utilisé aussi pour faire des encres*/
+    propriété : valeur
+}
+.class1, .class2, .class3[/*on sépare les selecteurs par des virgules pour en appliquer le meme style*/
+propriété : valeur
+}
+]
+.class1 .class2 .class3{/*ici on parle de la class3 qui est dans la class 2 qui est dans la class1 */
+    propriété : valeur
+}
+}

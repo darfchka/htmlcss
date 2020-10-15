@@ -1,0 +1,25 @@
+PS C:\xampp\htdocs\htmlcss> git init
+Reinitialized existing Git repository in C:/xampp/htdocs/htmlcss/.git/
+PS C:\xampp\htdocs\htmlcss> git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+PS C:\xampp\htdocs\htmlcss> git commit -m "htmlcss"
+[master a519290] htmlcss
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename 01_index.css => css/01_index.css (100%)
+PS C:\xampp\htdocs\htmlcss> git remote add origin https://github.com/darfchka/htmlcss.git
+fatal: remote origin already exists.
+PS C:\xampp\htdocs\htmlcss> git branch -M main
+PS C:\xampp\htdocs\htmlcss> git push -u origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 80.52 KiB | 10.06 MiB/s, done.
+Total 14 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/darfchka/htmlcss.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+PS C:\xampp\htdocs\htmlcss> 
+

@@ -1,0 +1,53 @@
+body{
+    font-size: 25px;
+
+}
+h1{
+    background-color: black;
+    color: white;
+}
+section p{
+    color: red;/*tout les p qui sont dans la section*/
+}
+section p:first-child{
+    color: violet;
+}
+section p :last-child{
+    color: pink;
+}
+section p:nth-child(even){/*les p pair*/
+    color: blue;
+}
+section p :nth-child(odd){/*les p impairs*/
+    color: brown;
+}
+section p :nth-child(3), section p :nth-child(10){
+    color: chartreuse;
+}
+.zone1{
+    color: cyan;
+}
+.zone2{
+    color: darkmagenta;
+}
+
+.lime{
+    color: lime;
+}
+#zone3{
+    background-color: mediumorchid;
+}
+#zone3::before{/*ajoute du contenu avant le contenu de la balise*/
+    content: "rajouté avant";/*content obligatoire avec before*/
+}
+#zone3 ::after[
+   content : rajouter aprés;
+]
+li :nth-of-type(2){
+    background-color: mediumorchid;
+    color:wheat;
+}
+.zone4 span{
+    color: white;
+    background-color: black;
+}

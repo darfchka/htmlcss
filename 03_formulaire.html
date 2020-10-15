@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire HTML</title>
+    <link rel="stylesheet" href="css/03_formulaire.css">
+</head>
+<body>
+
+    <form>
+
+        <label>
+            pseudo
+            <input type=" text" id="pseudo" name="pseudo" placeholder="exemple" required>
+            <!--l'id sert a utiliser la donnée avec d'autre laznguage,
+            le placeholder contient le text qui apparait dans linput
+        type précise le type de donnée récupérée
+    required precise au navigateur que le champs est a renseigner obligatoirement-->
+
+        </label>
+        <br>
+
+        <label for="mdp">
+            mot de passe <span title="le mot de passe peut contenir....">*</span>
+        </label>
+        <input type="password" name="mdp" placeholder="mot de passe" required>
+
+        <br>
+         <label for="email">email</label>
+         <input type="email" name="email" placeholder="email">
+
+         <br>
+
+         <label for="photo">photo</label>
+         <input type="file" name="photo"> 
+
+         <br>
+         <br>
+
+
+         <!--case a cocher-->
+         <label for="question">quelle est le plus beau pays?</label>
+         <p>
+             <input type="checkbox" name="reponse01">martinique
+             <input type="checkbox" name="reponse02">algerie
+             <input type="checkbox" name="reponse03">costa rica
+            
+         </p>
+         <label for="question">quelle est le plus beau pays?</label>
+         <p>
+             <input type="radio" name="reponse011" checked>martinique
+             <input type="radio" name="reponse012">algerie
+             <input type="radio" name="reponse013">costa rica
+            
+         </p>
+
+         <br>
+         <br>
+         <!--zone de texte-->
+         <label for="commentaires">commentaires</label>
+         <textarea name="commentaires" cols="80" rows="8"></textarea>
+         <!--rows:nombres de ligne -cols nombres de colonne caractére-->
+
+         <br>
+
+         <!--bouton envoie du formulaire-->
+         <input type="submit" name="inscription" value="envoyer"> 
+
+         <!--vider le formulaire-->
+         <input type="reset" name="annuler" value="annuler">
+
+         <a href="https://www.w3schools.com/html/html_form_input_types.asp">doc</a>
+         <a href=" https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input"></a>
+    </form>
+    
+</body>
+</html>
