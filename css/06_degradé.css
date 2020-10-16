@@ -1,0 +1,18 @@
+.contenu{
+    height: 45em;/*hauteur*/
+    width: 45em;/*largeur*/
+    margin: auto;/*centre la balise*/
+    border-radius: 50%; /*arrondie les angles*/
+    background: linear-gradient(to left,
+     red, blue);
+    /*degradé couleur en haut et en bas avec le to left de gauche a droite*/
+    /*cssgradient.fr*/
+
+}
+.gradé{
+    height: 45em;
+    width: 45em;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(black white);
+}

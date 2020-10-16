@@ -1,0 +1,35 @@
+body{
+    width: 50%;
+    margin: auto;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid grey;
+    width: 40%;
+    margin: 250px;
+    height: 200%;
+}
+tbody{
+    border: 1 px solid black;
+  
+}
+
+td{
+border: 1px solid rgb(8, 0, 0);  
+padding: 5px; 
+}
+
+.jaune{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.black{
+    background-color: black;
+}
+.grey{
+    background-color: grey;
+}

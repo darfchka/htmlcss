@@ -1,0 +1,20 @@
+table{
+    border:4px brown;
+    border-collapse: collapse;
+    width: 30%;
+    margin: 25px;/*marge extérieur de la balise*/
+    padding: 30px ;
+    height: 600px;
+}
+
+tbody{
+    border: 1px solid;
+}
+
+
+.brown{
+    background-color: rgb(26, 2, 2);
+}
+.marronclair{
+    background-color: brown;
+}
