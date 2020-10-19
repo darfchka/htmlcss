@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+    background-color: coral;
+
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;/*haut droite bas gauche*/
+    background-color: cornflowerblue;
+}
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    /*em : relatif à l'element parent
+    rem :relatif à la balise html
+    % : relatif à l'element parent 
+    vw : relatif à la largeur de l'ecran
+    vh :relatif à la hauteur de l'écran*/
+    background: url(../img/image2.jpg);
+    margin: 2vh;
+    background-repeat:no-repeat;
+    border: 5px double ;
+    float: left; /*effet flottant place les eléments cotes a cote alors que le flux standar des éléments les placent les uns en dessous des autres*/
+    transition:margin 0.5s;
+    
+    
+}
+.boite:hover{
+    /*modifie l'afffichage au survole de la souris*/
+    margin-top: 10vh;
+}
+
+.clear{
+    clear: both; /* supprime leffet flotant a droite et a gauche*/
+}
+
+p{
+    background-color: aquamarine;
+}
+
+p span{
+    background-color: azure;
+}

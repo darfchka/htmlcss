@@ -1,0 +1,9 @@
+.code{
+    color: lightcoral;
+    background: black;
+    display: inline-block;
+    font-style: italic;
+}
+body{
+    background-color: chartreuse;
+}
