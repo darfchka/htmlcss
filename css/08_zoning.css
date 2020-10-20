@@ -1,0 +1,38 @@
+body{
+    font-family: cursive;
+}
+
+#contenu{
+    width: 80%;
+    margin: 10px auto;
+    background-color: red;/*le style est surchargé écrasé plus bas*/
+    border: 2px solid black;
+}
+
+header, footer{
+
+    height: 80px;
+    background-color: red;
+    color: silver;
+    text-align: center;
+    padding-top: 6px;
+}
+
+nav{
+    height: 40px;
+    background-color: tomato;
+    color: white;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+section{
+    border: 20px solid brown;
+    background-color: white;
+    height: 500px;
+    text-align: center;
+
+}
+
+p{
+    margin: 0;
+}

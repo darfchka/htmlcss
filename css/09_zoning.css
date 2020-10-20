@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+    font-size: 25px;
+}
+
+#contener{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid darkblue;
+}
+
+header{
+    background-color: red;
+    height: 100px;
+}
+
+nav{
+    background-color: brown;
+    height: 30px;
+}
+
+section{
+    background-color: chocolate;
+    height: 500px;
+    margin: 20px;
+}
+
+footer{
+    background-color: brown;
+    height: 100px;
+}
+
+.a, .b, .c, .d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.a{
+    background-color: blueviolet;
+}
+.b{
+    background-color: cyan;
+}
+.c{
+    background-color: rgb(16, 113, 224);
+}
+.d{
+    background-color: chartreuse;
+}
+
+.clear{
+    clear: both;
+}
