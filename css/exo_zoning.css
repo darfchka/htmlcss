@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+
+#contener{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid darkblue;
+
+}
+
+section{
+    height: 1020px;
+    margin: 20px 10px 20px 10px ;
+    width: 122%;
+}
+
+header{
+    background-color: lightsalmon;
+    height: 50px;
+    color: white;
+}
+
+nav{
+    background-color: rgb(98, 45, 23);
+    color: white;
+}
+footer{
+    background-color: rgb(95, 68, 72);
+    height: 50px;
+    color: white;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p{
+    width: 20%;
+    height: 250px;
+    float: left;
+    border: 2px solid white;
+    line-height: 200px;
+    color: white;
+
+}
+.a, .b, .e, .f{
+    background-color: rgb(238, 204, 190);
+}
+.c, .d, .g, .h{
+    background-color: lightskyblue;
+}
+.i, .j, .m, .n{
+    background-color: rgb(20, 20, 109);
+}
+.k, .l, .o, .p{
+    background-color: rgb(238, 204, 190) ;
+}
+
+.clear{
+    clear: both;
+}
+
+
